@@ -44,7 +44,7 @@ body {
 
 .highlight {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background: linear-gradient(45deg, #33abdd, #bfd22a);
   padding: 1rem 1rem;
   margin: 1.5rem 0;
