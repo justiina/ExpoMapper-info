@@ -30,8 +30,8 @@ body {
   padding: 0.25rem 0.75rem;
   margin-bottom: 0.75rem;
 
-  background: linear-gradient(135deg, #33abdd, #55a772);
-  color: #040e7c;
+  background: #040e7c;
+  color: #ffffff;
 
   font-size: 0.7rem;
   font-weight: 700;
@@ -45,8 +45,7 @@ body {
 .highlight {
   display: flex;
   flex-direction: column;
-
-  background-color: #bfd22a;
+  background: linear-gradient(45deg, #33abdd, #bfd22a);
   padding: 1.75rem 2rem;
   margin: 1.5rem 0;
   border-radius: 0.5rem;
