@@ -24,9 +24,10 @@ body {
 /* ===== Badge ===== */
 .badge {
   display: block;
-  padding: 0.15rem 0.5rem;
+  /*padding: 0.15rem 0.5rem;*/
+  padding: 1rem;
   background-color: #040e7c;
-  color: #222;
+  color: #ffffff;
   margin-right: 0.6rem;
   margin-bottom: 0.5rem;
   font-size: 0.7rem;
