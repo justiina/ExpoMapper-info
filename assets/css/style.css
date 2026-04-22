@@ -22,7 +22,64 @@ body {
 }
 
 /* ===== Badge ===== */
+
 .badge {
+  display: inline-block;
+  align-self: flex-start;
+
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 0.75rem;
+
+  background: linear-gradient(135deg, #6fbe8b, #55a772);
+  color: #040e7c;
+
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+
+  border-radius: 999px; /* pill shape */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.highlight {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f5f8da; /* softer than pure yellow */
+  padding: 1.75rem 2rem;
+  margin: 1.5rem 0;
+
+  border-left: 5px solid #040e7c;
+  border-radius: 0.5rem;
+
+  color: #1f2933;
+  line-height: 1.6;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.highlight a {
+  color: #040e7c;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(4, 14, 124, 0.3);
+}
+
+.highlight a:hover {
+  border-bottom-color: #040e7c;
+}
+
+
+.highlight:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: all 0.2s ease;
+}
+
+
+/*.badge {
   display: block;
   padding: 0.15rem 0.5rem;
   background-color: #6fbe8b;
@@ -43,7 +100,7 @@ body {
   margin: 1.5rem 0;
   border-left: 4px solid #040e7c;
   color: #1f2933;
-}
+}  */
 
 h1, h2, h3 {
   color: #040e7c;
