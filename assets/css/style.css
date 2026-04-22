@@ -21,22 +21,20 @@ body {
   align-items: start;
 }
 
-
-
 /* ===== Badge ===== */
 .badge {
-  display: inline-block;
+  display: block;
   padding: 0.15rem 0.5rem;
+  background-color: #040e7c;
+  color: #222;
   margin-right: 0.6rem;
+  margin-bottom: 0.5rem;
   font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   border: 1px solid #040e7c;
   border-radius: 2px;
-  background-color: #040e7c;
-  color: #ffffff;
-  vertical-align: text-top;
 }
 
 .highlight {
