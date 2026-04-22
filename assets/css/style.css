@@ -26,16 +26,17 @@ h2 {
 /* ===== Header ===== */
 .site-header {
   border-bottom: 1px solid #e5e7eb;
-  background-color: #f9fafb;
+  background-color: #040e7c;
 }
 
 .site-title {
+  color: #ffffff;
   margin-bottom: 0.25rem;
 }
 
 .site-subtitle {
   margin-top: 0;
-  color: #4b5563;
+  color: #ffffff;
   font-size: 1rem;
 }
 
@@ -67,7 +68,7 @@ ul {
 /* ===== Footer ===== */
 .site-footer {
   border-top: 1px solid #e5e7eb;
-  background-color: #040e7c;
+  background-color: #f9fafb;
   margin-top: 4rem;
 }
 
