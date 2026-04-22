@@ -1,8 +1,3 @@
----
-layout: default
-title: ExpoMapper
----
-
 # ExpoMapper - Environmental Exposure Generator
 
 ExpoMapper is an R Shiny application for generating coordinate-based environmental exposures. It supports research in exposomics, epidemiology, and geoscience by providing an interactive interface to access and process exposure data from the EU-funded EXPANSE project, accessible via the [Exposome Data Platform](https://exposome.uu.nl/).
@@ -26,7 +21,7 @@ ExpoMapper enables researchers to efficiently create exposure estimates for sets
 ### 1. Outside ExpoMapper
 
 Before using the tool, ensure you have the necessary credentials and prepared data:
-* Generate credentials for the Exposome Data Platform - [see instructions] (credenials.md)
+* Generate credentials for the Exposome Data Platform - [see instructions](credenials.md)
 * Clean and prepare coordinate data -  [see instructions](coordinate_transform.md)
 
 ### 2. Inside ExpoMapper
