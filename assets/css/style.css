@@ -14,6 +14,7 @@ body {
 }
 
 h1, h2, h3 {
+  color: #040e7c;
   font-weight: 600;
   line-height: 1.3;
 }
@@ -66,7 +67,7 @@ ul {
 /* ===== Footer ===== */
 .site-footer {
   border-top: 1px solid #e5e7eb;
-  background-color: #f9fafb;
+  background-color: #040e7c;
   margin-top: 4rem;
 }
 
