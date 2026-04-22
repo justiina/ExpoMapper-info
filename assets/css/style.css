@@ -21,6 +21,11 @@ body {
   align-items: start;
 }
 
+.two-columns > p {
+  margin-top: 0;
+}
+
+
 /* ===== Badge ===== */
 
 .badge {
@@ -47,7 +52,6 @@ body {
   flex-direction: column;
   background: linear-gradient(45deg, #33abdd, #bfd22a);
   padding: 1.5rem;
-  /*margin: 1.5rem 0;*/
   border-radius: 0.5rem;
 
   color: #1f2933;
