@@ -84,9 +84,10 @@ h2 {
 }
 
 .site-header .container {
+  max-width: 960px;
   background-color: #040e7c;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .site-title {
