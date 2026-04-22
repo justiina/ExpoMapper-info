@@ -11,7 +11,7 @@
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">ExpoMapper</h1>
-      <p class="site-subtitle">A tool for mapping exposome-related data</p>
+      <p class="site-subtitle">A tool for mapping coordinates to environmental maps</p>
 
       <nav class="site-nav">
         <a href="index.html">Home</a>
@@ -25,36 +25,63 @@
     <section>
       <h2>Overview</h2>
       <p>
-        ExpoMapper is a research-oriented tool designed to support the
-        organization, mapping, and exploration of exposome-related data.
-        It aims to facilitate reproducible and transparent analysis workflows
-        in environmental and health research.
+        ExpoMapper is an R Shiny application for generating coordinate-based environmental exposures. It supports research in exposomics, epidemiology, and geoscience by providing an interactive interface to access and process exposure data from the EU-funded EXPANSE project, accessible via the [Exposome Data Platform](https://exposome.uu.nl/).
+      </p>
+      <p>
+        ExpoMapper soon available in [GitHub](https://github.com/justiina/ExpoMapper)
+      </p>
+    </section>
+    <section>
+      <h2>Overview</h2>
+      <p>
+        ExpoMapper enables researchers to efficiently create exposure estimates for sets of geographical coordinates. Through an intuitive Shiny interface, users can connect to the Exposome Data Platform, explore available environmental exposure maps, and generate estimates for specific study locations.
       </p>
     </section>
 
     <section>
       <h2>Key Features</h2>
       <ul>
-        <li>Structured representation of exposome data</li>
-        <li>Support for harmonized variable mapping</li>
-        <li>Designed for research and academic use</li>
+        <li>Interactive Shiny interface</li>
+        <li>Seamless integration with the Exposome Data Platform</li>
+        <li>Automated exposure retrieval and processing</li>
+        <li>Coordinate-based exposure estimation</li>
+        <li>Export-ready outputs for downstream analysis</li>
       </ul>
     </section>
 
     <section>
-      <h2>Getting Started</h2>
-      <p>
-        Documentation and usage examples are available on the
-        Documentation page. The source code is hosted on GitHub.
-      </p>
+      <h2>Workflow</h2>
+      <section>
+        <h3>1. Outside ExpoMapper</h3>
+        <p>
+          Before using the tool, ensure you have the necessary credentials and prepared data:
+          <ul>
+            <li>Generate credentials for the Exposome Data Platform</li>
+            <li>Clean and prepare coordinate data</li>
+          </ul>
+        </p>
+      </section>
+      <section>
+        <h3>2. Inside ExpoMapper</h3>
+        <p>
+          Once your setup is complete, ExpoMapper handles the rest:
+          <ol>
+            <li>Connect to the Exposome Data Platform</li>
+            <li>Retrieve available exposure maps for your selected country</li>
+            <li>Select and download the maps relevant to your exposure of interest</li>
+            <li>Generate and save exposure estimates for each coordinate</li>
+          </ol>
+        </p>
+      </section>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
       <p>
-        © 2026 ExpoMapper • Academic research tool<br>
+        © 2026 ExpoMapper • Environmental Exposure Genrator<br>
         Developed by Justiina Ronkainen
+        ExpoMapper was developed as part of the EU-funded <a href="https://humanexposome.net/">IHEN project</a>, supporting research in environmental exposures and their impact on human health.
       </p>
     </div>
   </footer>
