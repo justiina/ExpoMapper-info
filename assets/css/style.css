@@ -85,6 +85,8 @@ h2 {
 
 .site-header {
   background-color: #040e7c;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .site-title {
