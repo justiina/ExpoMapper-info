@@ -32,35 +32,6 @@ Once your setup is complete, ExpoMapper handles the rest:
 3. Select and download the maps relevant to your exposure of interest
 4. Generate and save exposure estimates for each coordinate
 
-### Flowchart
-
-```mermaid
-flowchart TD
-%% Nodes
-  A1(Prepare coordinates)
-  A2(Create credentials)
-  B(Login to Exposome<br/>Data Platform<br/>via ExpoMapper)
-  C(Select your country)
-  D(Select and download<br/>maps for your exposure)
-  E(Upload the coordinates)
-  F(Generate exposure<br/>estimates)
-  F1(Air pollution and<br/>temperature maps)
-  F2(Other maps)
-  G1([Estimates in long format<br/>for coordinate dates<br/>overlapping with map dates])
-  G2([Estimates for all maps<br/>irrespective of coordinate<br/>dates])
-
-%% Connections
-A1 & A2 --> B --> C --> D --> E --> F --> F1 & F2
-F1 --> G1
-F2 --> G2
-
-%% Node styling
-style B fill:#040e7c,color:#ffffff
-style F fill:#040e7c,color:#ffffff
-style G1 fill:#c2d224,color:#000000
-style G2 fill:#c2d224,color:#000000
-```
-
 ## Acknowledgements
 
 ExpoMapper was developed as part of the EU-funded [IHEN project](https://humanexposome.net/), supporting research in environmental exposures and their impact on human health.
