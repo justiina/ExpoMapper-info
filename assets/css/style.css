@@ -32,7 +32,7 @@ body {
 
 .highlight {
   background-color: #bfd22a;
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 0px 10px 10px 0px;
   padding: 0.75rem 1rem;
   margin: 1.5rem 0;
   border-left: 4px solid #040e7c;
@@ -54,6 +54,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   gap: 2rem;
 }
 
@@ -90,6 +92,8 @@ h2 {
 .site-header .container {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .site-title {
