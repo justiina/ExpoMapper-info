@@ -32,7 +32,6 @@ body {
 
 .highlight {
   background-color: #bfd22a;
-  border-radius: 0px 6px 0px 6px;
   padding: 0.75rem 1rem;
   margin: 1.5rem 0;
   border-left: 4px solid #040e7c;
@@ -50,6 +49,39 @@ h2 {
 }
 
 /* ===== Header ===== */
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.header-text {
+  max-width: 70%;
+}
+
+.header-logo {
+  max-height: 64px;
+  width: auto;
+  opacity: 0.9;
+}
+
+/* Mobile logo */
+@media (max-width: 640px) {
+  .header-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-logo {
+    margin-top: 1rem;
+  }
+
+  .header-text {
+    max-width: 100%;
+  }
+}
+
 .site-header {
   border-bottom: 1px solid #e5e7eb;
   background-color: #040e7c;
