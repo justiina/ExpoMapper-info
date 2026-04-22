@@ -24,8 +24,7 @@ body {
 /* ===== Badge ===== */
 .badge {
   display: block;
-  /*padding: 0.15rem 0.5rem;*/
-  padding: 1rem;
+  padding: 0.15rem 0.5rem;
   background-color: #040e7c;
   color: #ffffff;
   margin-right: 0.6rem;
@@ -41,7 +40,7 @@ body {
 .highlight {
   background-color: #bfd22a;
   border-radius: 0px 8px 8px 0px;
-  padding: 0.75rem 1rem;
+  padding: 2rem;
   margin: 1.5rem 0;
   border-left: 4px solid #040e7c;
   color: #1f2933;
