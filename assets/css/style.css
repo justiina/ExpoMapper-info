@@ -1,7 +1,7 @@
 /* ===== Base ===== */
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: #1f2933;
   background-color: #ffffff;
@@ -11,6 +11,11 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
+}
+
+.highlight {
+  background-color: #bfd22a;
+
 }
 
 h1, h2, h3 {
