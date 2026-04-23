@@ -78,30 +78,6 @@ body {
   transition: all 0.2s ease;
 }
 
-
-/*.badge {
-  display: block;
-  padding: 0.15rem 0.5rem;
-  background-color: #6fbe8b;
-  color: #040e7c;
-  margin-right: 0.6rem;
-  margin-bottom: 0.5rem;
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  border-radius: 2px;
-}
-
-.highlight {
-  background-color: #bfd22a;
-  border-radius: 0px 8px 8px 0px;
-  padding: 2rem;
-  margin: 1.5rem 0;
-  border-left: 4px solid #040e7c;
-  color: #1f2933;
-}  */
-
 h1, h2, h3 {
   color: #040e7c;
   font-weight: 600;
@@ -222,4 +198,23 @@ ul ol {
 .site-footer p {
   font-size: 0.9rem;
   color: #4b5563;
+}
+
+@media (max-width: 768px) {
+  /* Two-column -> single column */
+  .two-columns {
+    grid-template-columns: 1fr;
+  }
+
+  /* Stacked layout */
+  .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Smaller logo on mobile */
+  .eu-logo {
+    height: 40px;
+  }
 }
